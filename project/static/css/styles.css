@@ -1,0 +1,66 @@
+/* base.html */
+
+body {
+    background-color: #3a0400;
+}
+
+.navbar {
+    background-color: #024681;
+    
+}
+
+.nav-link a {
+    color: #fff;
+    padding: 10px;
+    margin: 0 5px;
+    opacity: 0.8;
+    transition: 0.3s;
+ }
+ 
+ .nav-link a:hover{
+    opacity: 1;
+ 
+ }
+.container-fluid {
+    padding-top: 130px;
+}
+
+
+/* index.html */
+
+.index {
+    padding-top: 150px;
+}
+
+
+/* login.html, reset_password.html, reset.html and signup.html */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+
+.checkbox {
+    font-size: small;
+}
+
+.check1 {
+    width: 10px;
+    height: 10px;
+}
+
+.col-md-12 {
+    padding-top: 10px;
+}
+
+
+/* profile.html */
+
+.display-6 {
+    padding-top: 150px;
+}
+.cloud {
+    margin-top: 300px;
+}
