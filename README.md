@@ -1,1 +1,1 @@
-# 8th-sem-project
+# MoviesToWatch
