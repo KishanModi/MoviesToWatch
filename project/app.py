@@ -77,7 +77,7 @@ app.register_blueprint(google_blueprint, url_prefix="/login")
 #tmdv api
 from tmdbv3api import TMDb
 tmdb = TMDb()
-tmdb.api_key = '22496d62c104429da2e6bf13d2fc9be5'
+tmdb.api_key = ''
 from tmdbv3api import Movie
 
 
