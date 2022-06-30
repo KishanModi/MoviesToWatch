@@ -22,14 +22,14 @@ jwt = JWTManager()
 mail = Mail()
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = 'key-goes-here'
+app.config['SECRET_KEY'] = ''
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///db.sqlite'
 app.config['MAIL_SERVER'] = 'smtp.sendgrid.net'
 app.config['MAIL_PORT'] =587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = 'apikey'
-app.config['MAIL_PASSWORD'] = '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'
-app.config['MAIL_DEFAULT_SENDER'] = 'crazyclark43@gmail.com'
+app.config['MAIL_PASSWORD'] = ''
+app.config['MAIL_DEFAULT_SENDER'] = ''
 
 db.init_app(app)
 data_url =r"https://res.cloudinary.com/kishanmodi/raw/upload/v1647103420/main_data_kpqadr.csv"
